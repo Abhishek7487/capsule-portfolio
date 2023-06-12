@@ -18,11 +18,7 @@ const MoreSection = () => {
         <Toggle title="My Resume">
           <div className="answer">
             <m.div variants={fade} style={{ marginTop: "2rem" }}>
-              <Button
-                href="https://drive.google.com/file/d/196717gP4uJDAAKp5Hr5uHA3x2U2KgOTB/view"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Button href="#" target="_blank" rel="noreferrer">
                 View Resume
               </Button>
             </m.div>
