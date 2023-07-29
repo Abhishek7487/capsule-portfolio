@@ -1,6 +1,6 @@
 import iphone1 from "./images/iphone1.webp";
 import waves1 from "./images/waves1.webp";
-import outdoors1 from "./images/outdoors1.webp.jpg";
+import usepopcorn1 from "./images/usepopcorn1.webp";
 
 export const projectState = () => {
   return [
@@ -73,27 +73,27 @@ export const projectState = () => {
       ],
     },
     {
-      title: "OUTDOORS Tourist Company",
-      mainImg: outdoors1,
-      mainImgAlt: "Outdoors tourist company",
-      url: "/work/outdoors",
-      siteLink: "https://outdoors-tourist-company.netlify.app/",
-      repoLink: "https://github.com/Abhishek7487/OUUTDOORS-The-Tourist-Company",
+      title: "usePopcorn Movie App",
+      mainImg: usepopcorn1,
+      mainImgAlt: "usePopcorn Movie App",
+      url: "/work/usepopcorn",
+      siteLink: "https://usepopcorn-movie.netlify.app/",
+      repoLink: "https://github.com/Abhishek7487/usePopcorn-movie-app",
       technologies: [
         { icon: ["fab", "figma"], name: "Figma" },
         { icon: ["fab", "html5"], name: "HTML5" },
         { icon: ["fab", "css3"], name: "Css" },
-        { icon: ["fab", "js"], name: "JavaScript" },
+        { icon: ["fab", "react"], name: "React" },
       ],
       details: [
         {
           title: "Challenges",
           description:
-            "Increasing user interactivity through absolutely amazing designs.",
+            "Allowing users to search movies and add their favourite ones to the watchlist along with rating ⭐",
         },
         {
           title: "Successes",
-          description: "Mobile friendly design.",
+          description: "Learned how to fetch data from API.",
         },
       ],
     },

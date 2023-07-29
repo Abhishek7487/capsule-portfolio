@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Images
 import iphone1 from "../images/iphone1.webp";
 import reactPlayer from "../images/reactPlayer.webp";
-import outdoors1 from "../images/outdoors1.webp.jpg";
+import usepopcorn1 from "../images/usepopcorn1.webp";
 // Animations
 import { m, LazyMotion, domAnimation } from "framer-motion";
 import { pageAnim, lineAnim } from "../animation";
@@ -32,6 +32,25 @@ const OurWork = () => {
             </Project>
           )}
         </UseScroll>
+
+        <UseScroll>
+          {usepopcorn1 && (
+            <Project>
+              <h2>usePopcorn Movie App</h2>
+              <m.div
+                variants={lineAnim}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true }}
+                className="line"
+              ></m.div>
+              <Link to="/work/usepopcorn">
+                <img src={usepopcorn1} alt="usePopcorn movie app" />
+              </Link>
+            </Project>
+          )}
+        </UseScroll>
+
         <UseScroll>
           {iphone1 && (
             <Project>
@@ -45,23 +64,6 @@ const OurWork = () => {
               ></m.div>
               <Link to="/work/iphone">
                 <img src={iphone1} alt="iphone homepage" />
-              </Link>
-            </Project>
-          )}
-        </UseScroll>
-        <UseScroll>
-          {outdoors1 && (
-            <Project>
-              <h2>OUUTDOOR's Tourist Company</h2>
-              <m.div
-                variants={lineAnim}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true }}
-                className="line"
-              ></m.div>
-              <Link to="/work/outdoors">
-                <img src={outdoors1} alt="Outdoors tourist company" />
               </Link>
             </Project>
           )}
