@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 // Images
-import iphone1 from "../images/iphone1.webp";
+import pizza from "../images/pizza.webp";
 import reactPlayer from "../images/reactPlayer.webp";
 import usepopcorn1 from "../images/usepopcorn1.webp";
 // Animations
@@ -15,6 +15,24 @@ const OurWork = () => {
     <LazyMotion features={domAnimation} strict>
       <Work variants={pageAnim} initial="hidden" animate="show" exit="exit">
         <h1>Projects</h1>
+
+        <UseScroll>
+          {pizza && (
+            <Project>
+              <h2>Fast React Pizz Co.</h2>
+              <m.div
+                variants={lineAnim}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true }}
+                className="line"
+              ></m.div>
+              <Link to="/work/pizza">
+                <img src={pizza} alt="Fast React Pizza Co." />
+              </Link>
+            </Project>
+          )}
+        </UseScroll>
         <UseScroll>
           {reactPlayer && (
             <Project>
@@ -46,24 +64,6 @@ const OurWork = () => {
               ></m.div>
               <Link to="/work/usepopcorn">
                 <img src={usepopcorn1} alt="usePopcorn movie app" />
-              </Link>
-            </Project>
-          )}
-        </UseScroll>
-
-        <UseScroll>
-          {iphone1 && (
-            <Project>
-              <h2>iPhone 13 Pro</h2>
-              <m.div
-                variants={lineAnim}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true }}
-                className="line"
-              ></m.div>
-              <Link to="/work/iphone">
-                <img src={iphone1} alt="iphone homepage" />
               </Link>
             </Project>
           )}

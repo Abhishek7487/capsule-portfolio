@@ -11,7 +11,7 @@ import { faSass } from "@fortawesome/free-brands-svg-icons/faSass";
 import { faJs } from "@fortawesome/free-brands-svg-icons/faJs";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons/faHtml5";
-import { faCss3 } from "@fortawesome/free-brands-svg-icons";
+import { faCss3, faRedditSquare } from "@fortawesome/free-brands-svg-icons";
 import { faFigma } from "@fortawesome/free-brands-svg-icons/faFigma";
 import { faElementor } from "@fortawesome/free-brands-svg-icons/faElementor";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";

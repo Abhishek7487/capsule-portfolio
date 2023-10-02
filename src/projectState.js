@@ -1,4 +1,4 @@
-import iphone1 from "./images/iphone1.webp";
+import pizza from "./images/pizza.webp";
 import waves1 from "./images/waves1.webp";
 import usepopcorn1 from "./images/usepopcorn1.webp";
 
@@ -39,36 +39,33 @@ export const projectState = () => {
     },
 
     {
-      title: "iPhone 13 Pro",
-      mainImg: iphone1,
-      mainImgAlt: "mobile view of Apple 13 Pro website",
-      url: "/work/iphone",
-      siteLink: "https://iphone13pro-devabs2023.netlify.app/",
-      repoLink: "https://github.com/Abhishek7487/iPhone-13-Pro",
+      title: "Fast React Pizza Co.",
+      mainImg: pizza,
+      mainImgAlt: "Fast React Pizza ordering app",
+      url: "/work/pizza",
+      siteLink: "https://pizza-co.netlify.app/",
+      repoLink: "https://github.com/Abhishek7487/fast-react-pizza",
       technologies: [
-        { icon: ["fab", "git"], name: "Git" },
+        { icon: ["fab", "react"], name: "React" },
         { icon: ["fab", "figma"], name: "Figma" },
-        { icon: ["fab", "css3"], name: "Css" },
-        { icon: ["fab", "js"], name: "Javascript" },
+        { icon: ["fab", "css3"], name: "TailwindCSS" },
         { icon: ["fab", "github"], name: "Github" },
         { icon: ["fab", "html5"], name: "HTML5" },
       ],
-      railsInclude: true,
-      herokuInclude: true,
       details: [
         {
           title: "Challenges",
-          description: "Applying amazing animations in each section.",
+          description: "Managing state with modern Redux-toolkit and thunks.",
         },
         {
           title: "Successes",
           description:
-            "Leared a lot about JS Animation libs such as BarbaJS and GSAP",
+            "Leared Advanced React-router concepts like Data loading, useFetcher hook, etc.",
         },
         {
           title: "Next",
           description:
-            "Optimising performance, eliminating empty space, and adding fun cross-user interactivity features!",
+            "Adding the ability to add or remove ingredients for pizzas in the cart!",
         },
       ],
     },
