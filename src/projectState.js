@@ -1,6 +1,8 @@
+import wild from "./images/wild.webp";
 import pizza from "./images/pizza.webp";
 import waves1 from "./images/waves1.webp";
 import usepopcorn1 from "./images/usepopcorn1.webp";
+import quiz from "./images/quiz.webp";
 
 export const projectState = () => {
   return [
@@ -69,6 +71,37 @@ export const projectState = () => {
         },
       ],
     },
+
+    {
+      title: "The Wild Oasis.",
+      mainImg: wild,
+      mainImgAlt: "The Wild Oasis",
+      url: "/work/wild",
+      siteLink: "https://the-wildo.netlify.app/",
+      repoLink: "https://github.com/Abhishek7487/the-wild-oasis",
+      technologies: [
+        { icon: ["fab", "react"], name: "React" },
+        { icon: ["fab", "figma"], name: "Figma" },
+        { icon: ["fab", "css3"], name: "TailwindCSS" },
+        { icon: ["fab", "github"], name: "Github" },
+        { icon: ["fab", "html5"], name: "HTML5" },
+        { icon: ["fa", "bolt"], name: "Supabase" },
+      ],
+      details: [
+        {
+          title: "Challenges",
+          description: "Managing remote state with modern React Query.",
+        },
+        {
+          title: "Successes",
+          description: "Leared abount styled components and react query.",
+        },
+        {
+          title: "Next",
+          description: "Integration of editing booking functionality",
+        },
+      ],
+    },
     {
       title: "usePopcorn Movie App",
       mainImg: usepopcorn1,
@@ -91,6 +124,31 @@ export const projectState = () => {
         {
           title: "Successes",
           description: "Learned how to fetch data from API.",
+        },
+      ],
+    },
+    {
+      title: "React Quiz App",
+      mainImg: quiz,
+      mainImgAlt: "React Quiz App",
+      url: "/work/quiz",
+      siteLink: "https://the-reactjs-quiz.netlify.app/",
+      repoLink: "https://github.com/Abhishek7487/react-quiz-app",
+      technologies: [
+        { icon: ["fab", "figma"], name: "Figma" },
+        { icon: ["fab", "html5"], name: "HTML5" },
+        { icon: ["fab", "css3"], name: "Css" },
+        { icon: ["fab", "react"], name: "React" },
+      ],
+      details: [
+        {
+          title: "Challenges",
+          description:
+            "Calculating the score of the user as per the correct answers and displaying highscore at the end.",
+        },
+        {
+          title: "Successes",
+          description: "Learned about contextAPI in depth.",
         },
       ],
     },

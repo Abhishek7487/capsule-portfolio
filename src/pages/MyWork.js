@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 // Images
+import wild from "../images/wild.webp";
+import quiz from "../images/quiz.webp";
 import pizza from "../images/pizza.webp";
 import reactPlayer from "../images/reactPlayer.webp";
 import usepopcorn1 from "../images/usepopcorn1.webp";
@@ -16,6 +18,40 @@ const OurWork = () => {
       <Work variants={pageAnim} initial="hidden" animate="show" exit="exit">
         <h1>Projects</h1>
 
+        <UseScroll>
+          {wild && (
+            <Project>
+              <h2>The Wild Oasis.</h2>
+              <m.div
+                variants={lineAnim}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true }}
+                className="line"
+              ></m.div>
+              <Link to="/work/wild">
+                <img src={wild} alt="The Wild Oasis." />
+              </Link>
+            </Project>
+          )}
+        </UseScroll>
+        <UseScroll>
+          {quiz && (
+            <Project>
+              <h2>React Quiz App.</h2>
+              <m.div
+                variants={lineAnim}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true }}
+                className="line"
+              ></m.div>
+              <Link to="/work/quiz">
+                <img src={quiz} alt="React Quiz App." />
+              </Link>
+            </Project>
+          )}
+        </UseScroll>
         <UseScroll>
           {pizza && (
             <Project>
