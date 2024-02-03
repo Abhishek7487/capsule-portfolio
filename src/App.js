@@ -15,6 +15,8 @@ import { faCss3, faRedditSquare } from "@fortawesome/free-brands-svg-icons";
 import { faFigma } from "@fortawesome/free-brands-svg-icons/faFigma";
 import { faElementor } from "@fortawesome/free-brands-svg-icons/faElementor";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import { faDropbox } from "@fortawesome/free-brands-svg-icons/faDropbox";
+import { faBolt } from "@fortawesome/free-solid-svg-icons/faBolt";
 //Pages
 import GlobalStyle from "./components/GlobalStyle";
 import Nav from "./components/Nav";
@@ -35,7 +37,9 @@ function App() {
     faFigma,
     faElementor,
     faLinkedin,
-    faCss3
+    faCss3,
+    faDropbox,
+    faBolt
   );
   // routing
   const location = useLocation();

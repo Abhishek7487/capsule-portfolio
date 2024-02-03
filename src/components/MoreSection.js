@@ -31,7 +31,7 @@ const MoreSection = () => {
         <Toggle title="Currently working on">
           <div className="answer">
             <m.p variants={fade}>
-              Building a Video Game Discovery Webapp for gamers.
+              Currently building a Reddit clone using ReactJS and Supabase.
               <span style={{ visibility: "hidden" }}>
                 Reps: timing is everything
               </span>
@@ -49,14 +49,14 @@ const MoreSection = () => {
               </a>
             </m.p>
             <m.p variants={fade}>
-              Getting to know the library that shook front-end
+              Getting to know TypeScript
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://codewithmosh.com/p/ultimate-react-part1"
+                href="https://codewithmosh.com/p/the-ultimate-typescript"
               >
                 <span style={{ cursor: "pointer" }}>
-                  Code with Mosh's React 18
+                  Code with Mosh's TypeScript
                 </span>
               </a>
             </m.p>

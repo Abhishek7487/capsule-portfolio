@@ -10,13 +10,15 @@ import { pageAnim } from "../animation";
 const AboutUs = () => {
   const technologies = [
     { icon: ["fab", "react"], name: "React" },
-    { icon: ["fab", "git"], name: "Git" },
-    { icon: ["fab", "figma"], name: "Figma" },
-    { icon: ["fab", "sass"], name: "Sass" },
     { icon: ["fab", "js"], name: "Javascript" },
-    { icon: ["fab", "github"], name: "Github" },
-    { icon: ["fab", "html5"], name: "HTML5" },
+    { icon: ["fa", "bolt"], name: "Supabase" },
     { icon: ["fab", "css3"], name: "CSS3" },
+    { icon: ["fab", "dropbox"], name: "TailwindCSS" },
+    { icon: ["fab", "sass"], name: "Sass" },
+    { icon: ["fab", "html5"], name: "HTML5" },
+    { icon: ["fab", "git"], name: "Git" },
+    { icon: ["fab", "github"], name: "Github" },
+    { icon: ["fab", "figma"], name: "Figma" },
   ];
 
   return (
